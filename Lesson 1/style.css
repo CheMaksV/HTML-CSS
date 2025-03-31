@@ -1,6 +1,17 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1741800459656-4116dcb230ae?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 p{
     color: green;
-    font-size: 32px;
+    /*font-size: 32px;*/
+    width: 30%;
+    height: 50px;
+    background-color: antiquewhite;
+    display: inline-block;
 }
 
 h2, h3{
@@ -14,5 +25,15 @@ sub, sup{
 
 span{
     color: red;
-    font-size: 40px;
+    /*font-size: 40px;*/
+    width: 30%;
+    height: 50px;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
