@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -62,13 +63,32 @@ main button{
     width: 160px;
     height: 40px;
     background-color: black;
-    color: white;
     border:  none;
     margin-top: 30px;
     transition: 2s;
+    a{
+        color: white;
+    }
 }
 main button:hover{
     transform: scale(1.1);
     transition: 2s;
-    color: #3e503f;
+    a{
+        transform: scale(1.1);
+        transition: 2s;
+        color: #3e503f;
+    }
+}
+/*--------------------------- contact -------------------------------*/
+section.contact{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://cdn.pixabay.com/photo/2022/10/08/17/39/swamp-7507489_1280.jpg");
+    background-size: cover;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 250px;
+    font-family: "Averia Libre", system-ui;
 }
