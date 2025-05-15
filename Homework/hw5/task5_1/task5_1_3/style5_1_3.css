@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:  none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.animation img{
+    height: 100px;
+}
+.leaves{
+    animation: leaves 5s ease-in infinite alternate;
+}
+@keyframes leaves {
+    from{
+        transform: translateY(50px) skew(20deg);
+    }
+    to{
+        transform: translateY(50px) skew(-20deg);
+    }
+}
+.wind{
+    animation: wind 5s ease-in infinite alternate;
+}
+@keyframes wind {
+    from{
+        transform: translate(-30px,-50px) skew(-40deg);
+    }
+    to{
+        transform: translate(-30px,-50px) skew(40deg);
+    }
+}
