@@ -33,11 +33,20 @@
             /*    transform: scale(1) rotate(0deg);*/
             /*    background-color: yellow;*/
 
+            /*from{*/
+            /*    transform: skew(40deg);*/
+            /*}*/
+            /*to{*/
+            /*    transform: skew(-40deg);*/
+            /*}*/
+
             from{
-                transform: skew(40deg);
+                /*transform: scale(1,2);*/
+                /*transform: scaleY(2);*/
+                transform: scaleX(2) skewY(40deg) translateY(-300px);
             }
             to{
-                transform: skew(-40deg);
+                transform: translateX(300px);
             }
         }
     </style>
