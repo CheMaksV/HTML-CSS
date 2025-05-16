@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        div :first-child{
+            color: coral;
+        }
+
+        div p::first-letter{
+            color: crimson;
+            font-size: 20px;
+        }
+        /*div p::first-line{*/
+        /*    color: crimson;*/
+        /*    font-size: 20px;*/
+        /*}*/
+        div :last-child{
+            color: green;
+        }
+        div p:last-of-type{
+            color: blue;
+        }
+        ul li:nth-child(odd){
+            color: cyan;
+        }
+        ul li:nth-last-child(3n+4){
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolores similique velit veritatis voluptatum. Accusantium, animi blanditiis deleniti distinctio
+        exercitationem magni necessitatibus nesciunt nobis non nulla officia quod repellendus, reprehenderit!</p>
+    <p>Enim exercitationem modi molestias.</p>
+    <p>Doloribus quas voluptas voluptates.</p>
+    <p>Itaque laborum ratione sed!</p>
+    <p>Amet delectus eaque enim.</p>
+    <p>Praesentium sapiente similique unde?</p>
+    <p>Assumenda consequatur eos fugiat.</p>
+    <p>Cum fugit maxime repellat.</p>
+    <span>Lorem.</span><span>Iusto.</span><span>Sequi?</span><span>Odio!</span>
+</div>
+<ul>
+    <li>Lorem ipsum dolor.</li>
+    <li>Est, non rem!</li>
+    <li>Architecto eum, quaerat.</li>
+    <li>Nostrum, officiis porro.</li>
+    <li>Adipisci amet, ducimus?</li>
+    <li>Libero neque, quis.</li>
+    <li>Eaque, eos, magnam!</li>
+    <li>Animi, culpa porro.</li>
+    <li>Architecto, at, veniam.</li>
+    <li>Omnis, porro, saepe.</li>
+    <li>Tempora, voluptatem, voluptatum.</li>
+    <li>Ducimus, odio, officia?</li>
+    <li>Deserunt, labore, quaerat?</li>
+    <li>Dolorum, ipsam laudantium!</li>
+    <li>Asperiores, doloribus, eligendi?</li>
+</ul>
+</body>
+</html>
