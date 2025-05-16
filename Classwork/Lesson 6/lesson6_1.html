@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        /*
+        1000b - inline
+        100b - id
+        10b - class
+        1b - tag
+        */
+        body p.lorem {
+            color: crimson;
+        }
+
+        p.text {
+            color: blue;
+        }
+
+        p {
+            color: coral;
+        }
+        section p.lorem{
+            color: cyan;
+        }
+        section div p.text{
+            color: coral;
+        }
+        section div.box p.text{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="box">
+        <p class="text lorem pink">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, soluta?</p>
+    </div>
+</section>
+</body>
+</html>
