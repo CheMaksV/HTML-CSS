@@ -1,0 +1,39 @@
+@media screen and (max-width: 480px) {
+    .circle_left, .circle_right {
+        display: none;
+    }
+
+    .page_not_found {
+        padding: 0 16px 0 16px;
+    }
+
+    .page_not_found h2 {
+        font-size: 110px;
+        line-height: 82px;
+    }
+
+    .page_not_found h3 {
+        font-size: 28px;
+        margin: 16px 0 17px 0;
+    }
+
+    .page_not_found p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .page_not_found div {
+        flex-direction: column;
+        gap: 16px;
+        padding-top: 24px;
+    }
+
+    .page_not_found div button{
+        display: flex;
+        height: 64px;
+        padding: 0 24px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+}
